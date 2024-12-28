@@ -175,9 +175,9 @@ class AirlineRegistrationForm extends JFrame {
 }
 
 class DatabaseConnection {
-    private static final String URL = "jdbc:postgresql://ep-hidden-butterfly-a54wv12d.us-east-2.aws.neon.tech/javaform?sslmode=require";
-    private static final String USERNAME = "Book Store_owner";
-    private static final String PASSWORD = "vJ2zOYt3Vabs";
+    private static final String URL = "";
+    private static final String USERNAME = "";
+    private static final String PASSWORD = "";
 
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USERNAME, PASSWORD);
